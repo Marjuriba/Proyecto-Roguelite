@@ -28,11 +28,11 @@ Después de declarar el tipo de la rama, se declarará un nombre corto y descrip
 > feature/nuevo-item-daga
 
 ### Comandos de las ramas
-`git checkout <Rama/Commit>`: Moverse a una rama o commit existente.
-`git checkout -b <Rama>`: Crear una nueva rama. **-b** Indica que nos vamos a mover a la rama y a crearla simultaneamente.
-`git branch -d <Rama>`: Elimina una rama existente.
-`git merge <Rama>`: Fusionar rama especificada con rama actual.
-`git branch -a`: Mostrar listado de ramas.
+- `git checkout <Rama/Commit>`: Moverse a una rama o commit existente.
+- `git checkout -b <Rama>`: Crear una nueva rama. **-b** Indica que nos vamos a mover a la rama y a crearla simultaneamente.
+- `git branch -d <Rama>`: Elimina una rama existente.
+- `git merge <Rama>`: Fusionar rama especificada con rama actual.
+- `git branch -a`: Mostrar listado de ramas.
 
 ## Workflow
 1. Hacer **pull** para asegurarnos de que estamos trabajando con la última versión del repo.
@@ -43,13 +43,13 @@ Después de declarar el tipo de la rama, se declarará un nombre corto y descrip
 6. Hacer **merge** para aplicar los cambios.
 
 **Ejemplo para nueva rama:**
->`git pull`
->`git checkout develop`
->`git checkout -b feature/nuevo-item-daga`
->`git commit -a -m "Mario: Objeto daga creado y primeras funciones hechas."
->`git commit -a -m "Mario: Objeto daga completado."
->`git checkout develop`
->`git merge feature/nuevo-item-daga`
->`git branch -d feature/nuevo-item-daga`
->`git push`
+>- `git pull`
+>- `git checkout develop`
+>- `git checkout -b feature/nuevo-item-daga`
+>- `git commit -a -m "Mario: Objeto daga creado y primeras funciones hechas."`
+>- `git commit -a -m "Mario: Objeto daga completado."`
+>- `git checkout develop`
+>- `git merge feature/nuevo-item-daga`
+>- `git branch -d feature/nuevo-item-daga`
+>- `git push`
 
