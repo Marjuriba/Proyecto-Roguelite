@@ -9,6 +9,8 @@ Mario Castillo López
 - **<Nombre/>**: Nombre del creador del commit.
 - **<Descripción/>**: Descripción de los cambios hechos al código.
 
+`git log`: Ver el historial de commits de la rama.
+
 ## Branching
 Ramas principales:
 - **Main**: Rama principal donde se meterán las versiones estables.
@@ -30,6 +32,7 @@ Después de declarar el tipo de la rama, se declarará un nombre corto y descrip
 `git checkout -b <Rama>`: Crear una nueva rama. **-b** Indica que nos vamos a mover a la rama y a crearla simultaneamente.
 `git branch -d <Rama>`: Elimina una rama existente.
 `git merge <Rama>`: Fusionar rama especificada con rama actual.
+`git branch -a`: Mostrar listado de ramas.
 
 ## Workflow
 1. Hacer **pull** para asegurarnos de que estamos trabajando con la última versión del repo.
@@ -48,4 +51,5 @@ Después de declarar el tipo de la rama, se declarará un nombre corto y descrip
 >`git checkout develop`
 >`git merge feature/nuevo-item-daga`
 >`git branch -d feature/nuevo-item-daga`
+>`git push`
 
