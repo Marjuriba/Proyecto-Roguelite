@@ -1,6 +1,3 @@
-
-¡Excelente! Con esa aclaración, el diseño del proyecto queda más definido y robusto. Aquí tienes la versión final y corregida del documento **README** para GitHub, optimizada para reflejar la naturaleza de **partidas de una sola sesión** (no *save/load*) y el uso de la **BBDD** para la data maestra.
-
 # 🪶 Roguelike de Interacciones (Terminal Java)
 
 ---
